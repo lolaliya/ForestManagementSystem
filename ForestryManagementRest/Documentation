@@ -1,0 +1,32 @@
+http://localhost:8080/ForestryManagementRest/
+
+CONTRACT
+Create Contract : "./rest/contract/create" [Method used : POST]  
+Delete Contract : "./rest/contract/delete/{id}" [Method used : DELETE] Pass request "id" as PathVariable 
+Update Contract Password : "./rest/contract/updatepassword"  [Method used : PUT]
+
+CUSTOMER
+Create Customer : "./rest/customer/create" [Method used : POST]  
+Delete Customer : "./rest/customer/delete/{id}" [Method used : DELETE] Pass request "id" as PathVariable 
+Update Customer Password : "./rest/customer/updatepassword"  [Method used : PUT]
+Update Customer Telephone Number : "./rest/customer/updatetelephoneno"  [Method used : PUT]
+Update Customer Email : "./rest/customer/updateemail"  [Method used : PUT]
+
+HAULIER
+Create Haulier : "./rest/haulier/create" [Method used : POST]  
+Delete Haulier : "./rest/haulier/delete/{id}" [Method used : DELETE] Pass request "id" as PathVariable 
+Update Haulier Password : "./rest/haulier/updatepassword"  [Method used : PUT]
+Update Haulier Telephone Number : "./rest/haulier/updatetelephoneno"  [Method used : PUT]
+Update Haulier Email : "./rest/haulier/updateemail"  [Method used : PUT]
+
+ORDERS
+Create Order : "./rest/order/create" [Method used : POST]  
+Delete Order : "./rest/order/delete/{id}" [Method used : DELETE] Pass request "id" as PathVariable 
+Update Order Date : "./rest/order/updatedate"  [Method used : PUT]
+
+PRODUCT
+Create Product : "./rest/product/create" [Method used : POST]  
+Delete Product : "./rest/product/delete/{id}" [Method used : DELETE] Pass request "id" as PathVariable 
+Update Product Description : "./rest/product/updatedescription"  [Method used : PUT]
+
+
